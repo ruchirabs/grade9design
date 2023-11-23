@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udupi Tourism</title>
+    <style>
+        /* Common styles for all pages */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: lightblue;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        nav {
+            background-color: lightblue;
+            padding: 10px;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .page-content {
+            background-color: lilac;
+            padding: 20px;
+            margin-top: 10px;
+        }
+
+        /* Styles for specific pages */
+        #home {
+            background-color: lightblue;
+        }
+        #about {
+            background-color: lilac;
+        }
+        #attractions {
+            background-color: lightblue;
+        }
+        #hotels {
+            background-color: lilac;
+        }
+        #restaurants {
+            background-color: lightblue;
+        }
+        #activities {
+            background-color: lilac;
+        }
+        #contact {
+            background-color: lightblue;
+        }
+        .popup {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .popup-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            padding: 10px;
+        }
+        .popup:hover .popup-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to Udupi</h1>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#attractions">Attractions</a></li>
+                <li><a href="#hotels">Hotels</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="home" class="page-content">
+        <h2>Home</h2>
+        <p>This is the homepage content with a light blue background.</p>
+        <img src="home.jpg" alt="Udupi Beach">
+    </div>
+    <div id="about" class="page-content">
+        <h2>About Udupi</h2>
+        <p>Udupi is a beautiful town located on the southwest coast of India...</p>
+    </div>
+    <div id="attractions" class="page-content">
+        <h2>Attractions</h2>
+        <p>Discover the amazing attractions in Udupi, such as...</p>
+    </div>
+    <div id="hotels" class="page-content">
+        <h2>Hotels</h2>
+        <p>Find the best hotels in Udupi for a comfortable stay...</p>
+    </div>
+    <div id="restaurants" class="page-content">
+        <h2>Restaurants</h2>
+        <p>Explore the local cuisine and restaurants in Udupi...</p>
+    </div>
+    <div id="activities" class="page-content">
+        <h2>Activities</h2>
+        <p>Engage in exciting activities and adventures in Udupi...</p>
+    </div>
+    <div id="contact" class="page-content">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please...</p>
+    </div>
+</body>
+</html>
